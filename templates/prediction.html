@@ -3,7 +3,13 @@
 <body>
 
 <h1>RESULT</h1>
-<p>the predicted weight value is {{pur}} </p>
+<p>the predicted weight value is {{Purchased}} </p>
+    </form>
+    {% if (Purchased)==0 : %}
+    <h2>  No Purchase  </h2>
+    {% elif (Purchased)==1 : %}
+    <h2>  Purchase </h2>
+    {% endif %}
 
 </body>
 </html>
