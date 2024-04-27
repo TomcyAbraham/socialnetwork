@@ -29,7 +29,7 @@ def predict():
 
         
         
-    return render_template('prediction.html',Purchased)
+    return render_template('prediction.html',Purchased[0])
 
 
 if __name__=='__main__':
